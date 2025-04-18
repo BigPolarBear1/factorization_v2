@@ -420,9 +420,6 @@ def try_sm(sim,x,n,primeslist2):
         del comb              
    
     i=0
-    smoothss.sort()
-    ind=bisect_left(smoothss,sqlimit)
-    
     while i < len(smoothss):
         to=smoothss[i]
         tot=to**2 
